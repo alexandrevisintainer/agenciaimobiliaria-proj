@@ -1,0 +1,103 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+.center {
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 5vh;
+}
+.cards {
+    margin-top: 80px;
+    display: grid;
+    grid-template-areas: "card1 card2 card3";
+    justify-content: space-around;
+}
+.Card1 {
+    height: 450px;
+    width: 350px;
+    text-align: center;
+    border-radius: 1.4rem;
+    font-size: 1.2rem;
+    margin: 2rem;
+}
+.Card1 p{
+    max-width: 300px;
+    margin: 0 auto;
+}
+.Card2 {
+    height: 450px;
+    width: 350px;
+    text-align: center;
+    border-radius: 1.4rem;
+    font-size: 1.2rem;
+    margin: 2rem;
+}
+.Card2 p{
+    max-width: 300px;
+    margin: 0 auto;
+}
+.Card3 {
+    height: 450px;
+    width: 350px;
+    text-align: center;
+    border-radius: 1.4rem;
+    font-size: 1.2rem;
+    margin: 2rem;
+}
+.Card3 p{
+    max-width: 300px;
+    margin: 0 auto;
+}
+.image {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.stars {
+    position: relative;
+    width: 150px;
+    height: 100px;
+    margin: 0 auto;
+
+}
+.title h2 {
+    font-size: 2.8rem;
+}
+@media screen and (max-width: 1200px) {
+    .cards {
+        grid-template-areas: "card1 card2";
+        margin-top: 0;
+    }
+    .Card3 {
+        display: none;
+    }
+}
+@media screen and (max-width: 795px) {
+    .container {
+        height: 250vh;
+    }
+    .cards {
+        grid-template-areas: "card1"
+                            " card2"
+                            " card3";
+    }
+    .Card3 {
+        display: block;
+    }
+}
+@media screen and (max-width: 370px) {
+    .Card1 p{
+        max-width: 250px;
+    }
+    .Card2 p{
+        max-width: 250px;
+    }
+    .Card3 p{
+        max-width: 250px;
+    }
+}
+

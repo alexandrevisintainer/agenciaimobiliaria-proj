@@ -1,0 +1,46 @@
+.container {
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../../public/heroBack.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.center {
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 10vh;
+}
+.content {
+    font-size: 2.4rem;
+    margin-top: 6rem;
+}
+.content button {
+    padding: 12px 20px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    background-color: #D25525;
+    border: none;
+    border-radius: 1.4rem;
+    color: #fff;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .content {
+        font-size: 2rem;
+    }
+    .content button {
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 500px) {
+    
+    .content {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    .content button {
+        font-size: 1rem;
+    }
+}
