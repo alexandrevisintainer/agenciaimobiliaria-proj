@@ -85,7 +85,7 @@
 }
 @media screen and (max-width: 795px) {
     .container {
-        height: 250vh;
+        height: 230vh;
     }
     .cards {
         grid-template-areas: "card1"
