@@ -29,6 +29,7 @@
 @media (max-width: 768px) {
     .content {
         font-size: 2rem;
+        margin-top: 10rem;
     }
     .content button {
         font-size: 1.2rem;
